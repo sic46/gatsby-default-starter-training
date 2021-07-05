@@ -15,11 +15,11 @@ const Header = ({ siteTitle }) => (
       </Link>
       </div>
       <ul className="ds-global-nav__children">
-                <li>Team</li>
-                <li>Car</li>
-                <li>Championship</li>
-                <li>Fans</li>
-                <li>Merchandise</li>
+                <li class="ds-global-nav__child"><a href="https://www.google.com.au">Team</a></li>
+                <li class="ds-global-nav__child"><a href="https://www.google.com.au">Car</a></li>
+                <li class="ds-global-nav__child"><a href="https://www.google.com.au">Championship</a></li>
+                <li class="ds-global-nav__child"><a href="https://www.google.com.au">Fans</a></li>
+                <li class="ds-global-nav__child"><a href="https://www.google.com.au">Merchandise</a></li>
       </ul>
       </div>
     </nav>
