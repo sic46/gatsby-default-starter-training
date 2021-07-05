@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <nav className="ds-global-nav">
       <div className="ds-global-nav__wrapper">
-      <div className="ds-global-home-link">
+      <div>
       <Link to="/">
       <StaticImage src="../images/tplr_e22.png"
       alt="The Pit Lane Report"
