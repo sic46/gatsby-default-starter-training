@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav className="ds-global-nav">
-      <div className="ds-global-nav__wrapper">
+    <nav>
+      <div>
       <div>
       <Link to="/">
       <StaticImage src="../images/tplr_e22.png"
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       width={239}/>
       </Link>
       </div>
-      <ul className="ds-global-nav__children">
+      <ul>
                 <li>Team</li>
                 <li>Car</li>
                 <li>Championship</li>
