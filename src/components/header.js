@@ -10,8 +10,8 @@ const Header = ({ siteTitle }) => (
       <Link to="/">
       <StaticImage src="../images/tplr_e22.png"
       alt="The Pit Lane Report"
-      height={80}
-      width={239}/>
+      height={"80"}
+      width={"239"}/>
       </Link>
       </div>
       <ul className="ds-global-nav__children">
